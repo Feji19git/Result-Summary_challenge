@@ -88,19 +88,22 @@ body {
 
     /* Button changes */
 .btn:hover {
-    background-color: hsl(224, 30%, 27%);
+    color: white;
+    background-image: linear-gradient(hsla(252, 100%, 67%), hsla(241, 81%, 54%));
 }
 
 .btn {
     border-radius: 60px;
     padding: 10px 60px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
 }
 
     /* result tab */
 
     /* circle formatting */
 .circle {
-    background-color: rgb(78, 33, 202);
+
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -109,11 +112,17 @@ body {
     align-content: center;
     /* padding: 40px; */
     font-family: "Hanken Grotesk-bold";
+
+    background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
 }
 
     /* First tab formatting */
 .bg {
-    background-color: hsl(252, 100%, 67%);
+
+    background-image: linear-gradient(hsla(252, 100%, 67%), hsla(241, 81%, 54%));
     width: 17.5rem;
     color: white;
     border-radius: 20px;
@@ -138,5 +147,4 @@ p {
 }
 .color{
     color: hsl(241, 100%, 89%);
-    /* color: hsl(221, 100%, 96%); */
 }
