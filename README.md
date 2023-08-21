@@ -33,7 +33,7 @@ This is the screenshot of the website
 ### Links
 
 - Solution URL: [C:\Users\COURAGE\Desktop\Web Development\results-summary-component-main\index.html](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://feji19git.github.io/Result-Summary_challenge/](https://your-live-site-url.com)
 
 ### Built with
 
