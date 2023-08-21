@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+/* centralize dashboard */
+
+.full {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+/* Dashboard layout */
+.left {
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+  /* Summary tab */
+
+.second {
+    width: 17.5rem;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* summary text */
+.summary {
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+    /* score color  */
+.text {
+    color: hsl(0, 100%, 67%);
+}
+
+.text1 {
+    color: hsl(39, 100%, 56%);
+}
+
+.text2 {
+    color: hsl(166, 100%, 37%);
+} 
+
+.text3 {
+    color: hsl(234, 85%, 45%);
+}
+
+.divide {
+    width: 15rem;
+    margin: 15px;
+}
+
+    /* Spacing btw text and score */
+.space {
+    margin-left: 3rem;
+}
+
+    /* background-color for score */
+.reaction {
+    background-color: #FAF3F0;
+}
+
+.memory {
+    background-color: #fffdec;
+}
+
+.verbal {
+    background-color: #f3fff7;
+}
+
+.visual {
+    background-color: #ECF2FF;
+}
+
+    /* Button changes */
+.btn:hover {
+    background-color: hsl(224, 30%, 27%);
+}
+
+.btn {
+    border-radius: 60px;
+    padding: 10px 60px;
+}
+
+    /* result tab */
+
+    /* circle formatting */
+.circle {
+    background-color: rgb(78, 33, 202);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: inline-grid;
+    align-content: center;
+    /* padding: 40px; */
+    font-family: "Hanken Grotesk-bold";
+}
+
+    /* First tab formatting */
+.bg {
+    background-color: hsl(252, 100%, 67%);
+    width: 17.5rem;
+    color: white;
+    border-radius: 20px;
+
+}
+
+p {
+    font-size: 15px;
+    font-weight: light;
+    
+}
+
+.h1-size {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: "Hanken Grotesk-bold";
+    font-size: 3.5em;
+    line-height: 1;
+}
+.great {
+    font-size: 1.5rem;
+}
+.color{
+    color: hsl(241, 100%, 89%);
+    /* color: hsl(221, 100%, 96%); */
+}
